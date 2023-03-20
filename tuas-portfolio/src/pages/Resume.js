@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Resume() {
+export default function Resume() {
   const proficiencies = [
     'JavaScript',
     'React',
@@ -26,4 +26,3 @@ function Resume() {
   );
 }
 
-export default Resume;

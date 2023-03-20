@@ -1,7 +1,7 @@
 import React from 'react';
+import '../styles/PortfolioContainer.css'
 
-
-function Portfolio() {
+export default function Portfolio() {
   const projects = [
     {
       id: 1,
@@ -68,4 +68,3 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
