@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/PortfolioContainer.css'
+import '../styles/Portfolio.css'
 
 export default function Portfolio() {
   const projects = [
@@ -54,17 +54,18 @@ export default function Portfolio() {
   ];
 
   return (
-    <div>
-      <h1>Portfolio</h1>
-      {projects.map((project) => (
-        <div key={project.id}>
-          <h3>{project.title}</h3>
-          <img src={project.imageUrl} alt={project.title} />
-          <p>{project.description}</p>
-          <a href={project.demoUrl}>Demo</a> | <a href={project.githubUrl}>GitHub</a>
-        </div>
-      ))}
+<div className='portfolio'>
+  <h1>Portfolio</h1>
+  {projects.map((project) => (
+    <div key={project.id}>
+      <h3>{project.title}</h3>
+      <img src={project.imageUrl} alt={project.title} />
+      <p>{project.description}</p>
+      <a href={project.demoUrl}>Demo</a> | <a href={project.githubUrl}>GitHub</a>
     </div>
+  ))}
+</div>
+
   );
 }
 

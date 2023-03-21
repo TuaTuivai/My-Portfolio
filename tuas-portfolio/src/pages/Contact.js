@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import '../styles/Contact.css';
 
 export default function Contact() {
   const [name, setName] = useState('');
@@ -21,24 +22,25 @@ export default function Contact() {
   }
 
   return (
-    <div>
+    <div className='contact'>
       <h1>Contact</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
-        </div>
-        <button type="submit">Send</button>
-      </form>
+      <div className='card'>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
+          </div>
+          <div>
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          </div>
+          <div>
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </div>
   );
 }
-
