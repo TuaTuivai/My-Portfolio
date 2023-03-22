@@ -1,0 +1,40 @@
+/* footer.css */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+.footer i {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer a {
+    margin: 5px 0;
+  }
+}

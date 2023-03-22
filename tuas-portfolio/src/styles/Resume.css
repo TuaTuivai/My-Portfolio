@@ -1,87 +1,127 @@
-/* resume.css */
-/* resume.css */
 .resume-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Add the rest of your CSS styles below */
+
+.resume-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.resume-container h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.resume-container h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.resume-container h4 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.resume-container h5 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #777;
+}
+
+.resume-container p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #231;
+}
+
+.resume-container a {
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resume-container a:hover {
+  text-decoration: underline;
+}
+
+.resume-container section {
+  margin-bottom: 30px;
+}
+
+.resume-container .skills-container {
+  display: flex;
+  justify-content: space-between; /* align sections to left and right */
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #57cc99; /* add background color */
+  padding: 20px; /* add padding */
+}
+
+.resume-container .skills-section {
+  width: 48%; /* give each section a width of 48% */
+  text-align: left; /* align section content to left */
+}
+
+.resume-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.resume-container li {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 600px) {
+  .resume-container {
+    padding: 10px;
   }
-  
-  /* Add the rest of your CSS styles below */
-  
-  
+
   .resume-container h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .resume-container h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 15px;
-    color: #007bff;
   }
-  
-  .resume-container h3 {
+
+  .resume-container h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #333;
   }
-  
-  .resume-container h4 {
+
+  .resume-container h3 {
     font-size: 1.5rem;
     margin-bottom: 5px;
-    color: #555;
   }
-  
+
+  .resume-container h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
   .resume-container h5 {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
-    color: #777;
-  }
-  
-  .resume-container p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 10px;
-    color: #333;
   }
-  
+
+  .resume-container p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
   .resume-container a {
-    font-size: 1.2rem;
-    color: #007bff;
-    text-decoration: none;
+    font-size: 1rem
   }
-  
-  .resume-container a:hover {
-    text-decoration: underline;
-  }
-  
-  .resume-container section {
-    margin-bottom: 30px;
-  }
-  
-  .resume-container .skills-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  
-  .resume-container .skills-section {
-    text-align: left;
-  }
-  
-  .resume-container ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-  
-  .resume-container li {
-    font-size: 1.2rem;
-    color: #333;
-  }
-  
+}

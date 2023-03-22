@@ -33,38 +33,42 @@ export default function Resume() {
 
   return (
     <div className="resume-container">
-      <h1>Resume</h1>
-      <p>
-        Download my resume <a href="/resume.pdf" download>here</a>.
-      </p>
-      <section>
-        <h2>Education</h2>
+    <h1>Resume</h1>
+    <p>
+      Download my resume <a href="/resume.pdf" download>here</a>.
+    </p>
+  
+    <section>
+      <h2>Education</h2>
+      <div className="card">
         <h3>{bootcamp.name}</h3>
         <h4>{bootcamp.institution}</h4>
         <h5>{bootcamp.duration}</h5>
         <p>{bootcamp.description}</p>
-      </section>
-      <section>
-        <h2>Skills</h2>
-        <div className="skills-container">
-          <div className="skills-section">
-            <h3>Front End</h3>
-            <ul>
-              {frontEndSkills.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
-            </ul>
-          </div>
-          <div className="skills-section">
-            <h3>Back End</h3>
-            <ul>
-              {backEndSkills.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
-            </ul>
-          </div>
+      </div>
+    </section>
+  
+    <section>
+      <h2>Skills</h2>
+      <div className="skills-container">
+        <div className="card">
+          <h3>Front End</h3>
+          <ul>
+            {frontEndSkills.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
         </div>
-      </section>
-    </div>
-  );
-}
+        <div className="card">
+          <h3>Back End</h3>
+          <ul>
+            {backEndSkills.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+   );
+  }  
