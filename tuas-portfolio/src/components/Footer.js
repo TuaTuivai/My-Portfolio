@@ -1,16 +1,25 @@
 import React from 'react';
-import '../styles/Footer.css'
-function Footer() {
+import '../styles/Footer.css';
+import GithubLogo from '../styles/Images/icons8-github-64.png';
+import twitterLogo from '../styles/Images/icons8-twitter-50.png';
+import linkedinLogo from '../styles/Images/linkedin.png';
+import '../styles/fonts.css';
+
+export default function Footer() {
   return (
-    <footer>
-      <div className='footer'>
-        <a href="https://github.com/TuaTuivai"><i className="fab fa-github"></i> GitHub</a>
-        <a href="https://linkedin.com/in/TuaTuivai"><i className="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://stackoverflow.com/users/TuaTuivai"><i className="fab fa-stack-overflow"></i> Stack Overflow</a>
-        <a href="https://twitter.com/TuaTuivai"><i className="fab fa-twitter"></i> Twitter</a>
-      </div>
-    </footer>
+    <div className="footer">
+      <a href="https://www.facebook.com">
+        <img src={GithubLogo} alt="Github" />
+        <span>Facebook</span>
+      </a>
+      <a href="https://www.twitter.com">
+        <img src={twitterLogo} alt="Twitter" />
+        <span>Twitter</span>
+      </a>
+      <a href="https://www.linkedin.com">
+        <img src={linkedinLogo} alt="LinkedIn" />
+        <span>LinkedIn</span>
+      </a>
+    </div>
   );
 }
-
-export default Footer;

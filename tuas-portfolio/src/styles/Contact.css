@@ -5,7 +5,9 @@
   align-items: center;
   font-family: Arial, sans-serif;
   background-color: #f3f3f3;
+  height: 100vh; /* set height to 100% viewport height */
 }
+
 
 .card {
   width: 80%;

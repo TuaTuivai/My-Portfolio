@@ -1,45 +1,50 @@
 import React from "react";
 import "../styles/Portfolio.css";
+import MoodMixer from "../styles/Images/Mood-Mixer.gif";
+import OnlyRecipes from "../styles/Images/Only-Recipes.gif";
+import WeatherForecast from "../styles/Images/WeatherForecast.gif"; 
+import Scheduler from "../styles/Images/Scheduler.png"; 
+import EmployeeTracker from "../styles/Images/Employee-Tracker.gif"; 
+import Backend from "../styles/Images/E-Commerce-BackEnd.gif"; 
 
 const projects = [
   {
     id: 1,
-    title: "Project 1",
-    image: "https://via.placeholder.com/200x200",
-    github: "https://github.com/yourusername/project1",
+    title: "Mood Mixer",
+    image: MoodMixer,
+    github: "https://sieraford.github.io/mood-mixer/",
   },
   {
     id: 2,
-    title: "Project 2",
-    image: "https://via.placeholder.com/200x200",
-    github: "https://github.com/yourusername/project2",
+    title: "Recipes",
+    image: OnlyRecipes,
+    github: "https://only-recipes-app.herokuapp.com/",
   },
   {
     id: 3,
-    title: "Project 3",
-    image: "https://via.placeholder.com/200x200",
-    github: "https://github.com/yourusername/project2",
+    title: "Weather Forecast",
+    image: WeatherForecast,
+    github: "https://tuatuivai.github.io/Cloudy-With-A-Chance-Of-Meatballs/",
   },
   {
     id: 4,
-    title: "Project 4",
-    image: "https://via.placeholder.com/200x200",
-    github: "https://github.com/yourusername/project2",
+    title: "Scheduler",
+    image: Scheduler,
+    github: "https://tuatuivai.github.io/WorkHardPlayHarder-Schedule/",
   },
   {
     id: 5,
-    title: "Project 5",
-    image: "https://via.placeholder.com/200x200",
-    github: "https://github.com/yourusername/project2",
+    title: "Employee Tracker",
+    image: EmployeeTracker,
+    github: "https://github.com/TuaTuivai/EmployeeOfTheMonth",
   },
   {
     id: 6,
-    title: "Project 6",
-    image: "https://via.placeholder.com/200x200",
-    github: "https://github.com/yourusername/project2",
+    title: "E-Commerce Back End",
+    image: Backend,
+    github: "https://github.com/TuaTuivai/ORM",
   },
   
-  // Add more projects here
 ];
 
 const Portfolio = () => {
