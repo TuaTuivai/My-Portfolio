@@ -16,7 +16,7 @@ export default function Footer() {
         <img src={twitterLogo} alt="Twitter" />
         <span>Twitter</span>
       </a>
-      <a href="https://www.linkedin.com">
+      <a href="https://www.linkedin.com/in/tua-tuivai-0184b4216/">
         <img src={linkedinLogo} alt="LinkedIn" />
         <span>LinkedIn</span>
       </a>

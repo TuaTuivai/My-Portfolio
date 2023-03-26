@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../assets/Tua_FullStack-Resume.pdf';
 import '../styles/Resume.css';
 
 export default function Resume() {
@@ -34,7 +35,7 @@ export default function Resume() {
   return (
     <div className="resume-container">
       <h1>Resume</h1>
-      <a href="../assets/resume.pdf" download>Download Resume</a>
+      <a href={resume} download>Download Resume</a>
     
       <section className="education-section">
         <h2>Education</h2>
