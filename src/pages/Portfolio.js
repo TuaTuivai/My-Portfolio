@@ -6,7 +6,8 @@ import WeatherForecast from "../styles/Images/WeatherForecast.gif";
 import Scheduler from "../styles/Images/Scheduler.png"; 
 import EmployeeTracker from "../styles/Images/Employee-Tracker.gif"; 
 import Backend from "../styles/Images/E-Commerce-BackEnd.gif"; 
-import What2Game from "../styles/Images/what2gamegif.gif"
+import What2Game from "../styles/Images/what2gamegif.gif";
+
 const projects = [
   {
     id: 1,
@@ -50,7 +51,6 @@ const projects = [
     image: Backend,
     github: "https://github.com/TuaTuivai/ORM",
   },
-  
 ];
 
 const Portfolio = () => {
@@ -62,7 +62,7 @@ const Portfolio = () => {
           <div key={project.id} className="project">
             <img src={project.image} alt={project.title} className="project-image" />
             <h3 className="project-title">{project.title}</h3>
-            <a href={project.github} className="project-link" target="_blank" rel="noopener noreferrer">
+            <a href={project.github} className="project-link" rel="noopener noreferrer">
               View on GitHub
             </a>
           </div>
