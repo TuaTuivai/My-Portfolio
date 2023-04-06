@@ -6,7 +6,7 @@ import WeatherForecast from "../styles/Images/WeatherForecast.gif";
 import Scheduler from "../styles/Images/Scheduler.png"; 
 import EmployeeTracker from "../styles/Images/Employee-Tracker.gif"; 
 import Backend from "../styles/Images/E-Commerce-BackEnd.gif"; 
-
+import What2Game from "../styles/Images/what2gamegif.gif"
 const projects = [
   {
     id: 1,
@@ -22,24 +22,30 @@ const projects = [
   },
   {
     id: 3,
+    title: "What2Game",
+    image: What2Game,
+    github: "https://github.com/erickjavalos/what2game",
+  },
+  {
+    id: 4,
     title: "Weather Forecast",
     image: WeatherForecast,
     github: "https://tuatuivai.github.io/Cloudy-With-A-Chance-Of-Meatballs/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Scheduler",
     image: Scheduler,
     github: "https://tuatuivai.github.io/WorkHardPlayHarder-Schedule/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Employee Tracker",
     image: EmployeeTracker,
     github: "https://github.com/TuaTuivai/EmployeeOfTheMonth",
   },
   {
-    id: 6,
+    id: 7,
     title: "E-Commerce Back End",
     image: Backend,
     github: "https://github.com/TuaTuivai/ORM",
