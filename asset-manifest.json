@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.6c86130b.css",
-    "main.js": "/My-Portfolio/static/js/main.df83bfa0.js",
+    "main.css": "/My-Portfolio/static/css/main.3f26d9fc.css",
+    "main.js": "/My-Portfolio/static/js/main.b25c1479.js",
     "static/media/Mood-Mixer.gif": "/My-Portfolio/static/media/Mood-Mixer.642e430c2b2ca35a442b.gif",
     "static/media/Only-Recipes.gif": "/My-Portfolio/static/media/Only-Recipes.22e40842769b437d5f48.gif",
     "static/media/WeatherForecast.gif": "/My-Portfolio/static/media/WeatherForecast.08e98ba64b137c0b82ad.gif",
@@ -16,11 +16,11 @@
     "static/media/linkedInLogo.png": "/My-Portfolio/static/media/linkedInLogo.c97201357d2b1888776a.png",
     "static/media/stackOverflowLogo.png": "/My-Portfolio/static/media/stackOverflowLogo.579cff432dec19bc3d23.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.6c86130b.css.map": "/My-Portfolio/static/css/main.6c86130b.css.map",
-    "main.df83bfa0.js.map": "/My-Portfolio/static/js/main.df83bfa0.js.map"
+    "main.3f26d9fc.css.map": "/My-Portfolio/static/css/main.3f26d9fc.css.map",
+    "main.b25c1479.js.map": "/My-Portfolio/static/js/main.b25c1479.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c86130b.css",
-    "static/js/main.df83bfa0.js"
+    "static/css/main.3f26d9fc.css",
+    "static/js/main.b25c1479.js"
   ]
 }
