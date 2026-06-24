@@ -14,7 +14,7 @@ export default function Resume() {
     'Sass',
   ];
 
-  const backEndSkills = [
+  const backendSkills = [
     'Node.js',
     'Express.js',
     'MongoDB',
@@ -22,6 +22,15 @@ export default function Resume() {
     'RESTful APIs',
     'Authentication & Authorization',
     'Version Control (Git)',
+  ];
+
+  const operationalSkills = [
+    'Data Entry & Management',
+    'Workflow Optimization',
+    'Inventory Tracking',
+    'Technical Troubleshooting',
+    'Team Leadership & Coordination',
+    'Cross-functional Communication',
   ];
 
   const bootcamp = {
@@ -35,8 +44,8 @@ export default function Resume() {
   return (
     <div className="resume-container">
       <h1>Resume</h1>
-      <a href={resume} download>Download Resume</a>
-    
+      <a href={resume} download="Download Resume">Download Resume</a>
+
       <section className="education-section">
         <h2>Education</h2>
         <div className="card">
@@ -46,22 +55,32 @@ export default function Resume() {
           <p>{bootcamp.description}</p>
         </div>
       </section>
-    
+
       <section className="skills-section">
-        <h2>Skills</h2>
+        <h2>Skills & Expertise</h2>
         <div className="skills-container">
           <div className="card">
-            <h3>Front-end Skills</h3>
+            <h3>Operational & Data Management</h3>
+            <ul>
+              {operationalSkills.map((skill) => (
+                <li key={skill}>{skill}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="card">
+            <h3>Front-End Skills</h3>
             <ul>
               {frontEndSkills.map((skill) => (
                 <li key={skill}>{skill}</li>
               ))}
             </ul>
           </div>
+
           <div className="card">
-            <h3>Back-end Skills</h3>
+            <h3>Back-End Skills</h3>
             <ul>
-              {backEndSkills.map((skill) => (
+              {backendSkills.map((skill) => (
                 <li key={skill}>{skill}</li>
               ))}
             </ul>
