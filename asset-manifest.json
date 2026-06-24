@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.a7d36e92.css",
+    "main.css": "/My-Portfolio/static/css/main.24fd03f7.css",
     "main.js": "/My-Portfolio/static/js/main.04738150.js",
     "static/media/Mood-Mixer.gif": "/My-Portfolio/static/media/Mood-Mixer.642e430c2b2ca35a442b.gif",
     "static/media/Only-Recipes.gif": "/My-Portfolio/static/media/Only-Recipes.22e40842769b437d5f48.gif",
@@ -16,11 +16,11 @@
     "static/media/linkedInLogo.png": "/My-Portfolio/static/media/linkedInLogo.c97201357d2b1888776a.png",
     "static/media/stackOverflowLogo.png": "/My-Portfolio/static/media/stackOverflowLogo.579cff432dec19bc3d23.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.a7d36e92.css.map": "/My-Portfolio/static/css/main.a7d36e92.css.map",
+    "main.24fd03f7.css.map": "/My-Portfolio/static/css/main.24fd03f7.css.map",
     "main.04738150.js.map": "/My-Portfolio/static/js/main.04738150.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7d36e92.css",
+    "static/css/main.24fd03f7.css",
     "static/js/main.04738150.js"
   ]
 }
